@@ -5,6 +5,7 @@ namespace BX3_MSI_Giveaway.Models
 {
     public class Form
     {
+        public int Id { get; set; }
         [Required]
         public string FullName { get; set; }
         [Required]
